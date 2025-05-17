@@ -54,7 +54,7 @@ namespace Less21
             return $"Order #{ID}\n" +
                $"Customer: {Customer.Name} (Discount: {Customer.Discount}%)\n" +
                $"Products:\n{productsList}\n" +
-               $"Total: {TotalPrice():C}"; ;
+               $"Total: {TotalPrice():f2} RUB"; ;
         }
     }
 }

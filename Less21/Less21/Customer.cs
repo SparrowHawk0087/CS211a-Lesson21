@@ -23,7 +23,7 @@ namespace Less21
 
             set
             {
-                if (name == "" || name == null)
+                if (value == "" || value == null)
                    throw new ArgumentException(nameof(Name), "Customer name can't be empty or whitespace.");
                 name = value;
             }

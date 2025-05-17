@@ -33,8 +33,8 @@ namespace Less21
 
             set 
             {
-                //if (name == String.Empty || name == null)
-                  //  throw new ArgumentException(nameof(name));
+                if (value == String.Empty || value == null)
+                  throw new ArgumentException(nameof(Name), "Product name can't be empty or whitespace.");
                 name = value;
             }
         }
